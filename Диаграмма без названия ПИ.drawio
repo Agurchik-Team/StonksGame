@@ -1,0 +1,283 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="7l58zw02-VS0qu5_mhJx">
+    <mxGraphModel dx="6825" dy="3136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="StockData" vertex="1">
+          <mxGeometry height="190" width="260" x="740" y="290" as="geometry">
+            <mxRectangle height="30" width="100" x="50" y="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-5" parent="j9zwVfaVUq3cJcvyzEK1-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;" value="&lt;pre style=&quot;font: 400 13px / 22px Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; white-space: pre-wrap; word-break: break-all; padding: 16px; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: rgb(249, 250, 251); margin: 0px !important;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span&gt;Тип: ScriptableObject&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;ПОЛЯ:&lt;/span&gt;&lt;br&gt;&lt;span&gt;+ stockName: String&lt;/span&gt;&lt;br&gt;&lt;span&gt;+ currentPrice: Float&lt;/span&gt;&lt;br&gt;&lt;span&gt;+ priceHistory: List&amp;lt;Float&amp;gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="164" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-20" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;line-height: 110%;&quot;&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IGameService&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;pre style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; text-wrap-mode: wrap; word-break: break-all; padding: 16px; color: rgb(249, 250, 251); line-height: 110%; margin: 0px !important;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;МЕТОДЫ:&lt;br&gt;+ Initialize(): void&lt;br&gt;+ Shutdown(): void&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="122.25" width="190" x="510" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-21" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(252, 255, 254));&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ITradeService&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;pre style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; text-wrap-mode: wrap; word-break: break-all; padding: 16px; line-height: 110%; color: rgb(249, 250, 251); margin: 0px !important;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(252, 255, 254));&quot;&gt;СВОЙСТВА:&lt;br&gt;+ Cash: Float { get; }&lt;br&gt;+ SharesOwned: Int { get; }&lt;br&gt;+ Equity: Float { get; }&lt;br&gt;+ CurrentLivingCost: Float { get; }&lt;br&gt;&lt;br&gt;МЕТОДЫ:&lt;br&gt;+ Buy(): Bool&lt;br&gt;+ Sell(): Bool&lt;br&gt;&lt;br&gt;СОБЫТИЯ:&lt;br&gt;+ OnPortfolioChanged: Action&lt;br&gt;+ OnBankrupt: Action&lt;/font&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="260" width="290" x="1890" y="535.25" as="geometry" />
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-22" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontColor=light-dark(#000000,#FFFFFF);" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IPriceProvider&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;pre style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; text-wrap-mode: wrap; word-break: break-all; padding: 16px; margin: 0px !important;&quot;&gt;СВОЙСТВА:&lt;br&gt;+ CurrentPrice: Float { get; }&lt;br&gt;+ ElapsedTime: Float { get; }&lt;br&gt;+ CurrentVolatility: Float { get; }&lt;br&gt;&lt;br&gt;СОБЫТИЯ:&lt;br&gt;+ OnPriceUpdated: Action&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="184.5" width="290" x="-640" y="265.5" as="geometry" />
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-24" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="StockManager" vertex="1">
+          <mxGeometry height="510" width="350" x="-630" y="582.25" as="geometry">
+            <mxRectangle height="30" width="120" x="-1150" y="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-27" parent="j9zwVfaVUq3cJcvyzEK1-24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;pre style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; text-wrap-mode: wrap; word-break: break-all; padding: 16px; line-height: 110%; margin: 0px !important;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(249, 250, 251), rgb(240, 240, 255));&quot;&gt;Наследует: MonoBehaviour&lt;br&gt;Реализует: IPriceProvider, IGameService&lt;br&gt;&lt;br&gt;ПОЛЯ (приватные):&lt;br&gt;- stock: StockData&lt;br&gt;- basePrice: Float = 100&lt;br&gt;- maxHistory: Int = 200&lt;br&gt;- startVolatility: Float = 0.02&lt;br&gt;- volatilityIncreasePerSec: Float = 0.002&lt;br&gt;- maxVolatility: Float = 0.3&lt;br&gt;- startTrendChangeChance: Float = 0.1&lt;br&gt;- trendChanceIncreasePerSec: Float = 0.005&lt;br&gt;- maxTrendChangeChance: Float = 0.8&lt;br&gt;- updateInterval: Float = 0.5&lt;br&gt;- elapsedTime: Float&lt;br&gt;- currentTrend: Float&lt;br&gt;- isPaused: Bool&lt;br&gt;&lt;br&gt;СВОЙСТВА:&lt;br&gt;+ ElapsedTime: Float { get; }&lt;br&gt;+ CurrentVolatility: Float { get; }&lt;br&gt;+ CurrentTrendChance: Float { get; }&lt;br&gt;&lt;br&gt;МЕТОДЫ:&lt;br&gt;+ Initialize(): void&lt;br&gt;+ Shutdown(): void&lt;br&gt;- Update(): void&lt;br&gt;- UpdateDifficulty(): void&lt;br&gt;- TickPrice(): void&lt;br&gt;&lt;br&gt;СОБЫТИЯ:&lt;br&gt;+ OnPriceUpdated: Action&lt;/font&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="484" width="350" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-28" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="PlayerPortfolio" vertex="1">
+          <mxGeometry height="530" width="340" x="1470" y="387.25" as="geometry" />
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-31" parent="j9zwVfaVUq3cJcvyzEK1-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#FEFFF7);" value="&lt;pre style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; text-wrap-mode: wrap; word-break: break-all; padding: 16px; margin: 0px !important; line-height: 110%;&quot;&gt;&lt;font style=&quot;&quot;&gt;Наследует: MonoBehaviour&lt;br&gt;Реализует: ITradingService, IGameService&lt;br&gt;&lt;br&gt;ПОЛЯ (приватные):&lt;br&gt;- stock: StockData&lt;br&gt;- startCash: Float = 1000&lt;br&gt;- startLivingCost: Float = 0.5&lt;br&gt;- livingCostIncreasePerSec: Float = 0.01&lt;br&gt;- maxLivingCost: Float = 5&lt;br&gt;- buySound: AudioClip&lt;br&gt;- sellSound: AudioClip&lt;br&gt;- isBankrupt: Bool&lt;br&gt;- livingCostTimer: Float&lt;br&gt;- audioSource: AudioSource&lt;br&gt;&lt;br&gt;СВОЙСТВА:&lt;br&gt;+ Cash: Float { get; }&lt;br&gt;+ SharesOwned: Int { get; }&lt;br&gt;+ Equity: Float { get; }&lt;br&gt;+ CurrentLivingCost: Float { get; }&lt;br&gt;&lt;br&gt;МЕТОДЫ:&lt;br&gt;+ Initialize(): void&lt;br&gt;+ Shutdown(): void&lt;br&gt;+ Buy(): Bool&lt;br&gt;+ Sell(): Bool&lt;br&gt;- Update(): void&lt;br&gt;- CheckBankruptcy(): void&lt;br&gt;- PlaySound(AudioClip): void&lt;br&gt;&lt;br&gt;СОБЫТИЯ:&lt;br&gt;+ OnPortfolioChanged: Action&lt;br&gt;+ OnBankrupt: Action&lt;/font&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="504" width="340" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-32" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="StockGraphUI" vertex="1">
+          <mxGeometry height="340" width="340" x="-40" y="387.25" as="geometry" />
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-35" parent="j9zwVfaVUq3cJcvyzEK1-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#FFFFFF);" value="&lt;pre style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; text-wrap-mode: wrap; word-break: break-all; padding: 16px; margin: 0px !important; line-height: 110%;&quot;&gt;Наследует: Graphic (Unity UI)&lt;br&gt;&lt;br&gt;ПОЛЯ:&lt;br&gt;- stock: StockData&lt;br&gt;- lineColor: Color&lt;br&gt;- lineThickness: Float = 3&lt;br&gt;- marginLeft: Float = 50&lt;br&gt;- marginBottom: Float = 30&lt;br&gt;- marginRight: Float = 15&lt;br&gt;- marginTop: Float = 15&lt;br&gt;- maxVisiblePoints: Int = 50&lt;br&gt;&lt;br&gt;МЕТОДЫ:&lt;br&gt;# OnPopulateMesh(VertexHelper): void&lt;br&gt;- Update(): void&lt;br&gt;- GetVisibleHistory(): List&amp;lt;Float&amp;gt;&lt;br&gt;- DrawAxes(VertexHelper, ...): void&lt;br&gt;- DrawGrid(VertexHelper, ...): void&lt;br&gt;- DrawGraphLine(VertexHelper, ...): void&lt;br&gt;- DrawLine(VertexHelper, ...): void&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="314" width="340" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-36" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="GraphLabelsSimple" vertex="1">
+          <mxGeometry height="230" width="300" x="1090" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-39" parent="j9zwVfaVUq3cJcvyzEK1-36" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#FCFFFD);" value="&lt;pre style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; text-wrap-mode: wrap; word-break: break-all; padding: 16px; margin: 0px !important; line-height: 110%;&quot;&gt;Наследует: MonoBehaviour&lt;br&gt;&lt;br&gt;ПОЛЯ:&lt;br&gt;- stock: StockData&lt;br&gt;- graphRect: RectTransform&lt;br&gt;- maxVisiblePoints: Int = 50&lt;br&gt;- yLabels: TMP_Text[]&lt;br&gt;- xLabels: TMP_Text[]&lt;br&gt;&lt;br&gt;МЕТОДЫ:&lt;br&gt;- Update(): void&lt;br&gt;- GetVisibleHistory(): List&amp;lt;Float&amp;gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="204" width="300" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-40" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="GameUI" vertex="1">
+          <mxGeometry height="530" width="250" x="750" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-43" parent="j9zwVfaVUq3cJcvyzEK1-40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#FFFFFF);" value="&lt;pre style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; text-wrap-mode: wrap; word-break: break-all; padding: 16px; line-height: 110%; margin: 0px !important;&quot;&gt;Наследует: MonoBehaviour&lt;br&gt;&lt;br&gt;ПОЛЯ:&lt;br&gt;- stock: StockData&lt;br&gt;- priceText: TMP_Text&lt;br&gt;- cashText: TMP_Text&lt;br&gt;- sharesText: TMP_Text&lt;br&gt;- equityText: TMP_Text&lt;br&gt;- timerText: TMP_Text&lt;br&gt;- priceUpColor: Color&lt;br&gt;- priceDownColor: Color&lt;br&gt;- priceNeutralColor: Color&lt;br&gt;- negativeColor: Color&lt;br&gt;- buyButton: Button&lt;br&gt;- sellButton: Button&lt;br&gt;- gameOverPanel: GameObject&lt;br&gt;- finalTimeText: TMP_Text&lt;br&gt;- restartButton: Button&lt;br&gt;- portfolio: PlayerPortfolio&lt;br&gt;- stockManager: StockManager&lt;br&gt;- isGameOver: Bool&lt;br&gt;- lastPrice: Float&lt;br&gt;&lt;br&gt;МЕТОДЫ:&lt;br&gt;- Awake(): void&lt;br&gt;- Start(): void&lt;br&gt;- OnEnable(): void&lt;br&gt;- OnDisable(): void&lt;br&gt;- Update(): void&lt;br&gt;- UpdateUI(): void&lt;br&gt;- GameOver(): void&lt;br&gt;- RestartGame(): void&lt;br&gt;- FormatTime(Float): String&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="504" width="250" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-44" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="MusicManager" vertex="1">
+          <mxGeometry height="260" width="240" x="1210" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-47" parent="j9zwVfaVUq3cJcvyzEK1-44" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#FCFEFF);" value="&lt;pre style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; text-wrap-mode: wrap; word-break: break-all; padding: 16px; line-height: 110%; margin: 0px !important;&quot;&gt;Наследует: MonoBehaviour&lt;br&gt;&lt;br&gt;ПОЛЯ:&lt;br&gt;- gameMusic: AudioClip&lt;br&gt;- gameOverMusic: AudioClip&lt;br&gt;- musicVolume: Float = 0.15&lt;br&gt;- audioSource: AudioSource&lt;br&gt;&lt;br&gt;МЕТОДЫ:&lt;br&gt;+ PlayGameMusic(): void&lt;br&gt;+ PlayGameOverMusic(): void&lt;br&gt;+ StopMusic(): void&lt;br&gt;- Awake(): void&lt;br&gt;- Start(): void&lt;br&gt;&lt;br&gt;&lt;/pre&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;12&quot; height=&quot;12&quot; viewBox=&quot;0 0 12 12&quot; fill=&quot;none&quot; class=&quot;_9bc997d _33882ae&quot; style=&quot;font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;&lt;path d=&quot;M-5.24537e-07 0C-2.34843e-07 6.62742 5.37258 12 12 12L0 12L-5.24537e-07 0Z&quot; fill=&quot;currentColor&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;12&quot; height=&quot;12&quot; viewBox=&quot;0 0 12 12&quot; fill=&quot;none&quot; class=&quot;_9bc997d _28d7e84&quot; style=&quot;font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px;&quot;&gt;&lt;path d=&quot;M-5.24537e-07 0C-2.34843e-07 6.62742 5.37258 12 12 12L0 12L-5.24537e-07 0Z&quot; fill=&quot;currentColor&quot;&gt;&lt;/path&gt;&lt;/svg&gt;" vertex="1">
+          <mxGeometry height="234" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-48" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="GameEventbus" vertex="1">
+          <mxGeometry height="230" width="290" x="150" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-51" parent="j9zwVfaVUq3cJcvyzEK1-48" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#FFFFFF);" value="&lt;pre style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; text-wrap-mode: wrap; word-break: break-all; padding: 16px; line-height: 110%; margin: 0px !important;&quot;&gt;СОБЫТИЯ (static):&lt;br&gt;+ OnGameOver: Action&lt;br&gt;+ OnGameRestart: Action&lt;br&gt;+ OnPriceUpdated: Action&amp;lt;Float&amp;gt;&lt;br&gt;+ OnPortfolioChanged: Action&lt;br&gt;&lt;br&gt;МЕТОДЫ (static):&lt;br&gt;+ TriggerGameOver(): void&lt;br&gt;+ TriggerGameRestart(): void&lt;br&gt;+ TriggerPriceUpdated(Float): void&lt;br&gt;+ TriggerPortfolioChanged(): void&lt;br&gt;+ ClearAll(): void&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="204" width="290" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-52" edge="1" parent="1" source="j9zwVfaVUq3cJcvyzEK1-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=13;strokeWidth=3;dashed=1;dashPattern=8 8;endArrow=block;endFill=1;strokeColor=light-dark(#000000,#9999FF);entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="j9zwVfaVUq3cJcvyzEK1-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-455" y="490" />
+              <mxPoint x="-300" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-53" edge="1" parent="1" source="j9zwVfaVUq3cJcvyzEK1-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.997;exitY=0.067;exitDx=0;exitDy=0;fontSize=13;strokeWidth=3;dashed=1;dashPattern=8 8;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;strokeColor=light-dark(#000000,#9999FF);" target="j9zwVfaVUq3cJcvyzEK1-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-180" y="641" />
+              <mxPoint x="-180" y="171" />
+            </Array>
+            <mxPoint x="40" y="1386" as="sourcePoint" />
+            <mxPoint x="170" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-54" edge="1" parent="1" source="j9zwVfaVUq3cJcvyzEK1-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=13;strokeWidth=3;dashed=1;dashPattern=8 8;endArrow=block;endFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#9999FF);" target="j9zwVfaVUq3cJcvyzEK1-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="1310" as="sourcePoint" />
+            <mxPoint x="537" y="1325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-55" edge="1" parent="1" source="j9zwVfaVUq3cJcvyzEK1-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;strokeWidth=3;dashed=1;dashPattern=8 8;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="j9zwVfaVUq3cJcvyzEK1-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="1280" as="sourcePoint" />
+            <mxPoint x="1247" y="1295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-56" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Graphic" vertex="1">
+          <mxGeometry height="90" width="160" x="450" y="535.25" as="geometry" />
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-59" parent="j9zwVfaVUq3cJcvyzEK1-56" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Базовый класс Unity&lt;/font&gt;" vertex="1">
+          <mxGeometry height="64" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-60" edge="1" parent="1" source="j9zwVfaVUq3cJcvyzEK1-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;strokeWidth=3;dashed=1;dashPattern=1 4;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startSize=6;strokeColor=light-dark(#000000,#FF3333);" target="j9zwVfaVUq3cJcvyzEK1-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="1740" as="sourcePoint" />
+            <mxPoint x="447" y="1755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-61" edge="1" parent="1" source="j9zwVfaVUq3cJcvyzEK1-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=3;dashed=1;dashPattern=8 4 1 4;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.01;exitY=0.68;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#000000,#FF8000);" target="j9zwVfaVUq3cJcvyzEK1-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-110" y="937" />
+              <mxPoint x="-110" y="330" />
+              <mxPoint x="740" y="330" />
+            </Array>
+            <mxPoint x="-410" y="1100" as="sourcePoint" />
+            <mxPoint x="-283" y="1275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-62" edge="1" parent="1" source="j9zwVfaVUq3cJcvyzEK1-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=3;dashed=1;dashPattern=8 4 1 4;endArrow=block;endFill=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#FF8000);entryX=1.005;entryY=0.148;entryDx=0;entryDy=0;entryPerimeter=0;" target="j9zwVfaVUq3cJcvyzEK1-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1555" y="270" />
+              <mxPoint x="1260" y="270" />
+              <mxPoint x="1260" y="340" />
+            </Array>
+            <mxPoint x="530" y="1540" as="sourcePoint" />
+            <mxPoint x="1020" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-63" edge="1" parent="1" source="j9zwVfaVUq3cJcvyzEK1-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=3;dashed=1;dashPattern=8 4 1 4;endArrow=block;endFill=1;entryX=1.005;entryY=0.815;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#FF8000);" target="j9zwVfaVUq3cJcvyzEK1-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="752" y="1570" as="sourcePoint" />
+            <mxPoint x="610" y="1662" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-64" edge="1" parent="1" source="j9zwVfaVUq3cJcvyzEK1-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=3;dashed=1;dashPattern=8 4 1 4;endArrow=block;endFill=1;entryX=0;entryY=0.756;entryDx=0;entryDy=0;exitX=1.009;exitY=0.139;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;strokeColor=light-dark(#000000,#FF8000);" target="j9zwVfaVUq3cJcvyzEK1-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="362" y="1600" as="sourcePoint" />
+            <mxPoint x="220" y="1692" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-65" edge="1" parent="1" source="j9zwVfaVUq3cJcvyzEK1-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=3;dashed=1;dashPattern=8 4 1 4;endArrow=block;endFill=1;entryX=0.475;entryY=0.995;entryDx=0;entryDy=0;exitX=0.004;exitY=0.18;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;strokeColor=light-dark(#000000,#FF8000);" target="j9zwVfaVUq3cJcvyzEK1-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1609" y="1740" as="sourcePoint" />
+            <mxPoint x="810" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-66" edge="1" parent="1" source="j9zwVfaVUq3cJcvyzEK1-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=4;endArrow=block;endFill=1;entryX=0.529;entryY=1;entryDx=0;entryDy=0;exitX=0.997;exitY=0.238;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" target="j9zwVfaVUq3cJcvyzEK1-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1235" y="886" />
+              <mxPoint x="1235" y="980" />
+              <mxPoint x="1650" y="980" />
+            </Array>
+            <mxPoint x="977" y="1718" as="sourcePoint" />
+            <mxPoint x="830" y="1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-67" edge="1" parent="1" source="j9zwVfaVUq3cJcvyzEK1-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=4;endArrow=block;endFill=1;entryX=1.008;entryY=0.831;entryDx=0;entryDy=0;exitX=-0.001;exitY=0.401;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" target="j9zwVfaVUq3cJcvyzEK1-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="968" />
+              <mxPoint x="680" y="810" />
+              <mxPoint x="-60" y="810" />
+              <mxPoint x="-60" y="1011" />
+            </Array>
+            <mxPoint x="360" y="1996" as="sourcePoint" />
+            <mxPoint x="421" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-68" edge="1" parent="1" source="j9zwVfaVUq3cJcvyzEK1-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=4;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="j9zwVfaVUq3cJcvyzEK1-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="2356" as="sourcePoint" />
+            <mxPoint x="811" y="2110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-69" edge="1" parent="1" source="j9zwVfaVUq3cJcvyzEK1-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=4;endArrow=block;endFill=1;exitX=0.759;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#000000, #00cc00);entryX=0.465;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;" target="j9zwVfaVUq3cJcvyzEK1-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1728" y="1400" />
+              <mxPoint x="285" y="1400" />
+            </Array>
+            <mxPoint x="1120" y="2106" as="sourcePoint" />
+            <mxPoint x="490" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-70" edge="1" parent="1" source="j9zwVfaVUq3cJcvyzEK1-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=4;endArrow=block;endFill=1;entryX=-0.01;entryY=0.132;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.549;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#000000, #00cc00);" target="j9zwVfaVUq3cJcvyzEK1-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-438" y="1210" />
+              <mxPoint x="10" y="1210" />
+              <mxPoint x="10" y="1003" />
+            </Array>
+            <mxPoint x="130" y="1940" as="sourcePoint" />
+            <mxPoint x="321" y="2090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-71" edge="1" parent="1" source="j9zwVfaVUq3cJcvyzEK1-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=4;endArrow=block;endFill=1;exitX=-0.012;exitY=0.629;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#000000, #00cc00);entryX=1.01;entryY=0.123;entryDx=0;entryDy=0;entryPerimeter=0;" target="j9zwVfaVUq3cJcvyzEK1-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="2266" as="sourcePoint" />
+            <mxPoint x="530" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-72" edge="1" parent="1" source="j9zwVfaVUq3cJcvyzEK1-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;strokeWidth=4;endArrow=block;endFill=1;exitX=0.498;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#000000, #00cc00);entryX=1.002;entryY=0.735;entryDx=0;entryDy=0;entryPerimeter=0;" target="j9zwVfaVUq3cJcvyzEK1-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1330" y="1360" />
+              <mxPoint x="670" y="1360" />
+              <mxPoint x="670" y="1126" />
+            </Array>
+            <mxPoint x="870" y="2160" as="sourcePoint" />
+            <mxPoint x="590" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-73" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=4;endArrow=block;endFill=1;strokeColor=light-dark(#000000,#00CC00);">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-250" y="1480" />
+              <mxPoint x="-40" y="1480" />
+            </Array>
+            <mxPoint x="-250" y="1480" as="sourcePoint" />
+            <mxPoint x="-80" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-74" connectable="0" parent="j9zwVfaVUq3cJcvyzEK1-73" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" value="Использование" vertex="1">
+          <mxGeometry relative="1" x="-0.0763" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-75" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=4;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-250" y="1440" />
+              <mxPoint x="-40" y="1440" />
+            </Array>
+            <mxPoint x="-250" y="1440" as="sourcePoint" />
+            <mxPoint x="-80" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-76" connectable="0" parent="j9zwVfaVUq3cJcvyzEK1-75" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#A8A8A8);labelBackgroundColor=light-dark(#FFFFFF,#000000);fontSize=15;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ассоциация&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0763" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-77" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=3;dashed=1;dashPattern=8 4 1 4;endArrow=block;endFill=1;strokeColor=light-dark(#000000,#FF9933);">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250" y="1399.43" as="sourcePoint" />
+            <mxPoint x="-80" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-78" connectable="0" parent="j9zwVfaVUq3cJcvyzEK1-77" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" value="Зависимость" vertex="1">
+          <mxGeometry relative="1" x="0.1564" y="-4" as="geometry">
+            <mxPoint x="-15" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-79" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=3;dashed=1;dashPattern=8 8;endArrow=block;endFill=1;strokeColor=light-dark(#000000,#6666FF);">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250" y="1360" as="sourcePoint" />
+            <mxPoint x="-80" y="1360.57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-80" connectable="0" parent="j9zwVfaVUq3cJcvyzEK1-79" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" value="Реализация" vertex="1">
+          <mxGeometry relative="1" x="0.1564" y="-4" as="geometry">
+            <mxPoint x="-15" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-84" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;strokeWidth=3;dashed=1;dashPattern=1 4;endArrow=block;endFill=1;strokeColor=light-dark(#000000,#FF3333);">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250" y="1510" as="sourcePoint" />
+            <mxPoint x="-80" y="1510.57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9zwVfaVUq3cJcvyzEK1-85" connectable="0" parent="j9zwVfaVUq3cJcvyzEK1-84" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" value="Наследование" vertex="1">
+          <mxGeometry relative="1" x="0.1564" y="-4" as="geometry">
+            <mxPoint x="-15" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
